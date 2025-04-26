@@ -1,6 +1,7 @@
 {
-  "license": "0BSD",
-  "main": "index.js",
+  "name": "gwr-radio",
+  "version": "1.0.0",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -8,18 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~52.0.46",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.9",
-    "react-native-paper": "4.9.2",
-    "@expo/vector-icons": "^14.0.2",
-    "@react-native-community/slider": "4.5.5",
-    "@react-native-async-storage/async-storage": "1.23.1",
-    "expo-av": "~15.0.2"
+    "expo": "~52.0.0",
+    "expo-av": "~13.7.2",
+    "expo-status-bar": "~1.12.0",
+    "react": "18.2.0",
+    "react-native": "0.73.7",
+    "@react-native-community/slider": "^4.4.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.24.3"
   },
   "private": true
 }
