@@ -1,4 +1,7 @@
 {
+  "cli": {
+    "appVersionSource": "project"
+  },
   "build": {
     "development": {
       "developmentClient": true,
